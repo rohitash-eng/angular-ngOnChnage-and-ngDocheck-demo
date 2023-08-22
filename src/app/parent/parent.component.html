@@ -1,0 +1,39 @@
+<div class="main-container">
+    <p>
+        <ngb-alert [dismissible]="false">
+            <strong>ngDoCheck and ngOnChange???</strong> Difference between ngDoCheck and ngOnChange
+        </ngb-alert>
+    </p>
+    <div class="form-cl">
+        <h1>Parent Component</h1>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail12">Parent Input Field</label>
+                <input type="text" class="form-control" id="exampleInputEmail12" aria-describedby="emailHelp12"
+                    placeholder="Enter values" (keyup)="validateEmail($event);">
+
+                
+                <div class="on-change">
+                    <button type="button" *ngFor="let item of isDoCheckCalled"
+                        class="btn btn-danger pd-10 mr-10">{{item}}</button>
+                </div>
+                <div class="sep"></div>
+
+                <div class="on-change">
+                    <button type="button" *ngFor="let item of isOnChangesCalled"
+                        class="btn btn-success pd-10 mr-10">{{item}}</button>
+                </div>
+
+            </div>
+            <div class="submit-form">
+                <button type="button" (click)="addValueInArray();" class="btn btn-primary">Push Value In Array</button>
+                <button type="button" (click)="clearArray();" class="btn btn-primary pd-10">Clear the Array</button>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="child-component">
+        <app-child [email]="email" [temp]="tempArr"></app-child>
+    </div>
+</div>

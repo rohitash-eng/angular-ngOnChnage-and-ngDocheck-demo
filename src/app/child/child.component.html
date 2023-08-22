@@ -1,0 +1,12 @@
+<form>
+    <h1>Child Form</h1>
+    <div class="on-change">
+        <button type="button" *ngFor="let item of isOnChangesCalled" class="btn btn-success pd-10 mr-10">{{item}}</button>
+    </div>
+    <div class="sep"></div>
+    <div class="on-change">
+        <button type="button" *ngFor="let item of isDoCheckCalled" class="btn btn-danger pd-10 mr-10">{{item}}</button>
+    </div>          
+    <p> Array Value List </p>
+    <button type="button" *ngFor="let item of temp" class="btn btn-success">{{item}}</button>
+</form>
