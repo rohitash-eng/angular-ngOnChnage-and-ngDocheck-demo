@@ -3,12 +3,17 @@
 # to setup this project what you need to do
 
 <pre>
-<strong>1. you need to review the screenshot of versions, you need to match the node and angular cli version</strong>
-<strong>2. you can take a pull from github URL - </strong>
-<strong>3. After cloning go to angular-ngOnChnage-and-ngDocheck-demo folder and install the dependencies with command `npm install`</strong>
+<strong>1. you need to review the screenshot of versions, you need to 
+match the node and angular cli version</strong>
+<strong>2. you can take a pull from github URL - <a href="https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo.git" _target="blank"><a> </strong>
+<strong>3. After cloning go to angular-ngOnChnage-and-ngDocheck-demo folder and
+ install the dependencies with command `npm install`</strong>
 
-<strong>4. If you are facing any issue to install your dependencies, try to run the `npm install --force` command. still not installed then check your node and angular version</strong>
-<strong>5. Successfully installing the dependencies, you can run the project  `ng serve`, you can test it, you can change the code as you want</strong>
+<strong>4. If you are facing any issue to install your dependencies, 
+try to run the `npm install --force` command. still not installed 
+then check your node and angular version</strong>
+<strong>5. Successfully installing the dependencies, you can run 
+the project `ng serve`, you can test it, you can change the code as you want</strong>
 
 <strong>6. Thanks!! Please suggest anything so I can improve</strong>
 
