@@ -7,6 +7,7 @@
 match the node and angular cli version</strong>
 <strong>2. you can take a pull from github URL - </strong> </pre>
 [Click on Repo](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo)
+[Version Screenshort](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo/blob/main/src/assets/images/version.png)
 <pre>
 <strong>3. After cloning go to angular-ngOnChnage-and-ngDocheck-demo folder and
  install the dependencies with command `npm install`</strong>
