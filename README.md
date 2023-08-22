@@ -5,7 +5,9 @@
 <pre>
 <strong>1. you need to review the screenshot of versions, you need to 
 match the node and angular cli version</strong>
-<strong>2. you can take a pull from github URL - [Click on Repo](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo)</strong>
+<strong>2. you can take a pull from github URL - </strong> </pre>
+[Click on Repo](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo)
+<pre>
 <strong>3. After cloning go to angular-ngOnChnage-and-ngDocheck-demo folder and
  install the dependencies with command `npm install`</strong>
 
@@ -16,7 +18,7 @@ then check your node and angular version</strong>
 the project `ng serve`, you can test it, you can change the code as you want</strong>
 
 <strong>6. Thanks!! Please suggest anything so I can improve</strong>
-
+</pre>
 
 
 
